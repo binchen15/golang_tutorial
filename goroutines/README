@@ -1,0 +1,50 @@
+Channels are the pipes that connect concurrent goroutines. 
+You can send values into channels from one goroutine and receive those values into another goroutine.
+
+By default sends and receives block until both the sender and receiver are ready.
+So channel is also a synchronization mechanism
+
+ex01:
+	go routine
+
+ex02:
+	channel
+
+ex03:
+	buffered channel
+
+ex04:
+	channel synchronization
+
+ex05:
+	channel directions
+
+ex06:
+	select channels
+
+ex07:
+	timeout, goroutine leaks
+
+ex08:
+	select with default branch.
+	blocking converted to nonblocking...
+
+ex09:
+	close channel
+
+ex10:
+	range over channel
+
+ex11:
+	timer, and channel associated with timer
+
+ex12:
+	ticker
+
+ex13:
+	worker pools
+
+ex14:
+	WaitGroup
+
+
