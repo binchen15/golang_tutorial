@@ -1,0 +1,8 @@
+ex01:
+	atomic counter using sync/atomic
+		atomic.AddUint64(&ops, 1)
+
+ex02:
+	mutex for read/write, atomic.LoadUInt64 for read
+
+
