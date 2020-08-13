@@ -1,0 +1,78 @@
+basic of go
+
+1. variables
+
+	var a string = "apple"
+	b := "orange"  // shorthand, type infered
+
+2. for
+	for is Go’s only looping construct.
+
+3.	if else
+
+```
+	if num := 9; num < 0 {
+        fmt.Println(num, "is negative")
+    } else if num < 10 {
+        fmt.Println(num, "has 1 digit")
+    } else {
+        fmt.Println(num, "has multiple digits")
+    }
+```
+
+4.	switch
+	different from "select"
+
+	more flexible then C/C++ switch
+
+5.	array
+
+	b := [5]int{3,4,5,6,8}
+
+	var twoD [2][3]int
+    for i := 0; i < 2; i++ {
+        for j := 0; j < 3; j++ {
+            twoD[i][j] = i + j
+        }
+    }
+
+6. 	slice
+
+	slices much more often than arrays in typical Go.
+
+
+7.	map
+
+	n := map[string]int{"foo": 1, "bar": 2}
+
+	_, exist = n['key']
+	if exist {...}
+
+8.	range
+
+9.	function
+
+10.	variadic function
+
+11.	closure
+
+12.	recursion
+
+13.	pointers
+
+	*, & similar to C lang
+
+14.	structs
+
+	collection of typed fields
+
+	Access struct fields with a dot.
+	You can also use dots with struct pointers - the pointers are automatically dereferenced.
+
+15.	methods
+
+	methods are defined on struct types
+
+	pointer/value receiver
+
+
