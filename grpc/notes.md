@@ -55,3 +55,11 @@ message HelloReply {
 
 create server
 
+----- youtube tutorial
+https://www.youtube.com/watch?v=a66-xEk_l2g&list=PLt1SIbA8guuvqvBtdkF34ylBeCvYe_r16
+
+------ youtube go tutorial
+https://www.youtube.com/watch?v=W5b64DXeP0o&list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJIoY
+
+
+
